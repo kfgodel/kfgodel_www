@@ -1,0 +1,7 @@
+{
+  "name": "bean2bean_www",
+  "version": "1.0",
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
