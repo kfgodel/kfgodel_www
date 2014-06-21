@@ -19,5 +19,5 @@ sudo apt-get install phantomJS
 ## Dependencias del proyecto
 
 ```
-bower install bootstrap
+bower install
 ```
