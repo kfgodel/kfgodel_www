@@ -16,6 +16,10 @@ sudo  npm install testem -g
 sudo apt-get install phantomJS
 ```
 
+## Estructura
+Cada página es un proyecto en si mismo. Para buildear hay que meterse en cada pagina  
+Sigo la estructura de: http://www.benknowscode.com/2013/06/building-modular-backbone-apps-with_7580.html
+
 ## Dependencias del proyecto
 
 ```

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="app/assets/ico/favicon.ico">
 
     <title>Carousel Template for Bootstrap</title>
 
@@ -21,7 +21,10 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="app/css/carousel.css" rel="stylesheet">
+
+    <!-- Cargamos JS con require -->
+    <script src="bower_components/requirejs/require.js" data-main="app/scripts/main.js"></script>
   </head>
 
 <!-- NAVBAR
@@ -200,6 +203,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/docs.min.js"></script>
+    <script src="vendor/docs.min.js"></script>
   </body>
 </html>
