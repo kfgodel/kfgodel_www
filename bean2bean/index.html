@@ -42,7 +42,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Project name</a>
+              <a class="navbar-brand" href="#">Bean2bean</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -127,20 +127,20 @@
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="app/assets/img/conversor_universal.png" alt="Generic placeholder image" height="140" width="140">
-          <h2>Universal conversor</h2>
-          <p>Convert any object type into any other type with its complete set of built-in converters.<br/>Easily add your own converters for custom type conversions</p>
+          <h2>Universal converter</h2>
+          <p>Any object into any other type.<br/>Complete built-in conversion set. Easily add your own</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="app/assets/img/bean_mapper.png" alt="Generic placeholder image">
           <h2>State mapper</h2>
-          <p>Use annotations, or programmatically map properties from one object to other. With very simple expressions you can create your DTOs to abstract your real implementation</p>
+          <p>Annotations, or programmatically create DTOs and abstract your implementation from other systems</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="app/assets/img/bean_manipulator.png" alt="Generic placeholder image">
           <h2>Bean manipulator</h2>
-          <p>Inside Bean2bean resides a very powerful bean manipulator you can use directly to improve your reflection</p>
+          <p>Improve your reflection with Bean2bean internal bean manipulator</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
@@ -152,8 +152,12 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Universal converter<br/>
+              <span class="text-muted featurette-heading-subtitle">One to convert them all</span></h2>
+          <p class="lead">From primitive values to collections, domain objects, DTOs, nested complex objects, cyclic references.
+              Any kind of object conversion is supported and easily abstracted in one central converter.
+                Don't repeat yourself, define your conversion once and use it everywhere.<br/>
+                Its smart conversion rules select the best conversion for each case</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -167,8 +171,11 @@
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">State mapper<br/>
+              <span class="text-muted featurette-heading-subtitle">Moving properties like a boss</span></h2>
+          <p class="lead">Simple expressions inside annotations or programmatic java DSL allows you to map properties from source to destination objects,
+              making DTOs a pleasure.<br/>
+              Complex mappings can be expressed with <a href="http://groovy.codehaus.org/">groovy language</a> for extra power</p>
         </div>
       </div>
 
@@ -176,8 +183,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Bean manipulator<br/>
+              <span class="text-muted featurette-heading-subtitle">Reflection made simple</span></h2>
+          <p class="lead">Even if you don't use other features, Bean2Bean abstracts many common reflective operations that can be
+            reused and extended to ease your framework development. Set or get properties and property paths, create and release objects
+            in powerful ways without annoying exceptions or unnecessary verbosity</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -192,7 +202,20 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2007 Dario L. Garcia. &middot; <a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img
+             alt="Creative Commons License" style="border-width:0"
+             src="http://i.creativecommons.org/l/by/2.5/ar/88x31.png" /></a><br />
+             <span xmlns:dc="http://purl.org/dc/elements/1.1/"
+             href="http://purl.org/dc/dcmitype/InteractiveResource" property="dc:title"
+             rel="dc:type">Bean2Bean</span> by <a xmlns:cc="http://creativecommons.org/ns#"
+             href="https://sourceforge.net/projects/bean2bean/" property="cc:attributionName"
+             rel="cc:attributionURL">Dar&#237;o Garc&#237;a</a> is licensed under a <a rel="license"
+             href="http://creativecommons.org/licenses/by/2.5/ar/">Creative Commons Attribution 2.5 Argentina
+             License</a>.<br />
+             Based on a work at <a xmlns:dc="http://purl.org/dc/elements/1.1/"
+             href="https://bean2bean.svn.sourceforge.net/svnroot/bean2bean"
+             rel="dc:source">bean2bean.svn.sourceforge.net</a>
+            </p>
       </footer>
 
     </div><!-- /.container -->
