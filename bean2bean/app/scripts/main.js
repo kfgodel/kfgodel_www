@@ -4,21 +4,23 @@ requirejs.config({
     paths: {
         bower: '../../bower_components',
         vendor: '../../vendor',
-        jquery: '../../bower_components/jquery/dist/jquery.js',
-        bootstrap: '../../bower_components/bootstrap/dist/js/bootstrap.min.js',
-        docs: 'vendor/docs.min.js'
+        jquery: '../../bower_components/jquery/dist/jquery',
+        bootstrap: '../../bower_components/bootstrap/dist/js/bootstrap',
+        docs: '../../vendor/docs.min'
     },
 
     shim: {
+        'bootstrap': {
+            deps: ['jquery'],
+            exports: "$.fn.popover"
+        },
         'underscore': {
             exports: '_'
-        },
-        'bootstrap': {
-            deps: ['jquery']
         }
     }
 });
 
-require([], function(jquery) {
+require(['jquery','bootstrap','docs'], function(jquery, bootstrap, docs) {
     console.log("Cargado");
+    return {};
 });
