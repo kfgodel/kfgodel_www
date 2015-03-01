@@ -28,6 +28,8 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
+
+<script type="text/x-handlebars" data-template-name="todos">
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -123,26 +125,15 @@
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
+      {{#each featureCircle in model}}
         <div class="col-lg-4">
-          <img class="img-circle" src="app/assets/img/conversor_universal.png" alt="Generic placeholder image" height="140" width="140">
-          <h2>Universal converter</h2>
-          <p>Any object into any other type.<br/>Complete built-in conversion set. Easily add your own</p>
+          <img class="img-circle" {{bind-attr src=featureCircle.img}} alt="Generic placeholder image" >
+          <h2>{{featureCircle.name}}</h2>
+          <p>{{featureCircle.description}}</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="app/assets/img/bean_mapper.png" alt="Generic placeholder image">
-          <h2>State mapper</h2>
-          <p>Annotations, or programmatically create DTOs and abstract your implementation from other systems</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="app/assets/img/bean_manipulator.png" alt="Generic placeholder image">
-          <h2>Bean manipulator</h2>
-          <p>Improve your reflection with Bean2bean internal bean manipulator</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+      {{/each}}
       </div><!-- /.row -->
-
 
       <!-- START THE FEATURETTES -->
 
@@ -217,7 +208,7 @@
       </footer>
 
     </div><!-- /.container -->
-
+</script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -231,6 +222,7 @@
 
     <script src="app/js/application.js"></script>
     <script src="app/js/router.js"></script>
+    <script src="app/js/models/todo.js"></script>
 
 
   </body>
