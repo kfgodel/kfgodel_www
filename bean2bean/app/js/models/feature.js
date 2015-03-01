@@ -1,10 +1,10 @@
-App.Todo = DS.Model.extend({
+App.Feature = DS.Model.extend({
   name: DS.attr('string'),
   img: DS.attr('string'),
   description: DS.attr('string'),
 });
 
-App.Todo.FIXTURES = [
+App.Feature.FIXTURES = [
  {
    id: 1,
    name: 'Universal converter',
