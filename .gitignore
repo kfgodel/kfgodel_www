@@ -1,2 +1,8 @@
 *.iml
 .idea
+bean2bean/bower_components
+!bean2bean/bower_components/jquery/dist/jquery.js
+!bean2bean/bower_components/bootstrap/dist/js/bootstrap.min.js
+!bean2bean/bower_components/ember/ember.js
+!bean2bean/bower_components/ember/ember-template-compiler.js
+!bean2bean/bower_components/ember-data/ember-data.js
