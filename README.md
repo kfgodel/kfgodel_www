@@ -1,27 +1,26 @@
-# Setupear el proyecto  
+# [Start Bootstrap](http://startbootstrap.com/) - [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/)
 
-## Requerimientos
+[Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
 
-```
-sudo apt-get install python-software-properties  
-sudo add-apt-repository ppa:chris-lea/node.js  
-sudo apt-get update  
-sudo apt-get install nodejs  
+## Getting Started
 
-sudo npm install bower -g
-sudo npm install grunt -g
-sudo  npm install grunt-cli -g
-sudo  npm install testem -g
+To use this template, choose one of the following options to get started:
+* Download the latest release on Start Bootstrap
+* Fork this repository on GitHub
 
-sudo apt-get install phantomJS
-```
+## Bugs and Issues
 
-## Estructura
-Cada página es un proyecto en si mismo. Para buildear hay que meterse en cada pagina  
-Sigo la estructura de: http://www.benknowscode.com/2013/06/building-modular-backbone-apps-with_7580.html
+Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-stylish-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/stylish-portfolio/).
 
-## Dependencias del proyecto
+## Creator
 
-```
-bower install
-```
+Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-stylish-portfolio/blob/gh-pages/LICENSE) license.
